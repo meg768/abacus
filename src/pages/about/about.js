@@ -34,7 +34,7 @@ module.exports = class AboutPage extends React.Component {
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ligula neque, finibus in turpis et, malesuada dignissim purus. Ut viverra massa leo, at sollicitudin velit auctor quis. Vestibulum quis orci rhoncus, gravida libero non, lobortis est. Quisque in tortor ut enim blandit vestibulum. Aliquam erat volutpat. Curabitur iaculis est iaculis.
 				</h5>
 				<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo.
 				</p>
 			</div>
 

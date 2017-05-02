@@ -6,15 +6,7 @@ import {sprintf, extend, isString, isObject, isArray, isNumber} from 'yow';
 import {BackgroundImage, MainToolBar} from '../../components/ui.js'
 import {Page} from '../../components/page.js'
 
-var io = require('socket.io-client');
 
-var url = sprintf('http://85.24.190.138:3002/tellstick');
-console.log('Connecting to %s...', url);
-var socket = io.connect(url);
-
-socket.on('hello', function(){
-	console.log('Connected');
-});
 require('./home.less');
 
 

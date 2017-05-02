@@ -23,7 +23,6 @@ ReactDOM.render((
 			<IndexRoute component={require('../pages/home/home.js')} />
 			<Route path="home"          component={require('../pages/home/home.js')} />
 			<Route path="about"         component={require('../pages/about/about.js')} />
-
 		</Route>
 	</Router>
 ), document.getElementById('app'))
